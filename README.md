@@ -1,1 +1,1 @@
-# poznavackamaker
+# Python script na vytváření poznávačky
