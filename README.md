@@ -30,7 +30,7 @@ Pokud nevíte jak na to klikněte [zde](https://www.youtube.com/watch?v=JLfd9LOd
 - Opakujte do té doby dokud nemáte všechny položky hotové
 - Klikněte na tlačítko stop, to v terminalu hodí error, ale to nevadí
 
-#Zadali jste špatně URL obrázku?
+# Zadali jste špatně URL obrázku?
 Pokud jste zadali URL obrázku špatně tak:
 -Zjistěte jaký je poslední číslo HTML souboru který jste vytvořili
 -V python souboru najděte tohle:
@@ -40,7 +40,7 @@ Pokud jste zadali URL obrázku špatně tak:
 ```
 a změňte to na číslo vašeho posledního souboru - 1, a všechno by mělo fungovat.
 
-#Zadali jste jméno špatně?
+# Zadali jste jméno špatně?
 Najděte soubor kde jste zadali jméno špatně
 v něm najdete tohle
 ```html
