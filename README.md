@@ -12,4 +12,4 @@ Jednoduchý python script který vytváří HTML souboru z URL a názvu.
 #### Jak na to?
 - Stáhněte (Clone) si tohle repo. nebo jen soubor main.py
 
-![Kde stáhnout?](https://github.com/Kendy205/poznavackamaker/blob/images/download.jpg?raw=true)
+![Kde stáhnout?](https://github.com/Kendy205/poznavackamaker/images/download.jpg?raw=true)
