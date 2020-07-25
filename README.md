@@ -21,14 +21,14 @@ Tento script vytváří HTML soubory pro který budete muset mít hosting(Teda p
 *Klikněte na zelený tlačkítko code a stáhněte jako zip*
 
 - Po stáhnutí najděte kam jste si soubor uložili, pokud jste si to stáhli jako .zip tak soubor nejdřív extrahujte, dejte **main.py** do nové složky pokud v žádné složce není
--V téhle složce vytvořte složku novou s názvem images(Tohle je důležíte jinak to nebude fungovat)
--Otevřete soubor **main.py** v PyCharmu a klikněte na tlačítko **Run** 
+- V téhle složce vytvořte složku novou s názvem images(Tohle je důležíte jinak to nebude fungovat)
+- Otevřete soubor **main.py** v PyCharmu a klikněte na tlačítko **Run** 
 Pokud nevíte jak na to klikněte [zde](https://www.youtube.com/watch?v=JLfd9LOdu_U)
--Dole by se vám mohl měl objevit obdelník s Terminálem, a měl by se vás ptát pro URL, zde zadejte URL obrázku *(URL musí končít na .jpg)* a stiskněte **ENTER**
--Pak se vás zeptá na název zde zadejte název kytky, zvířete.. ten tam zadejte a stiskněte **ENTER**
--Potomhle by se měl vytvořet HTML soubor s názvem 1.html
--Opakujte do té doby dokud nemáte všechny položky hotové
--Klikněte na tlačítko stop, to v terminalu hodí error, ale to nevadí
+- Dole by se vám mohl měl objevit obdelník s Terminálem, a měl by se vás ptát pro URL, zde zadejte URL obrázku *(URL musí končít na .jpg)* a stiskněte **ENTER**
+- Pak se vás zeptá na název zde zadejte název kytky, zvířete.. ten tam zadejte a stiskněte **ENTER**
+- Potomhle by se měl vytvořet HTML soubor s názvem 1.html
+- Opakujte do té doby dokud nemáte všechny položky hotové
+- Klikněte na tlačítko stop, to v terminalu hodí error, ale to nevadí
 
 #Zadali jste špatně URL obrázku?
 Pokud jste zadali URL obrázku špatně tak:
