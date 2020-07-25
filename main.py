@@ -42,7 +42,7 @@ def html_create(file_name, url, nazev, btn1, btn2):
             '</html>'
             )
 
-#----------------Tohle změňte pokud jste zadali něco špatně-------------------
+#----------------Tohle změňte pokud jste zadali špatně URL obrázku-------------------
 file_name = 0
 
 #Loop pro stahování a pojmenování obrázku
