@@ -1,4 +1,4 @@
-# Python script na vytváření poznávačky
+#Python script na vytváření poznávačky
 
 #Jak na používání?
 
