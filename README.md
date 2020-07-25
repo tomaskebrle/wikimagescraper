@@ -1,5 +1,15 @@
-#Python script na vytváření poznávačky
+# Python script na vytváření poznávačky
+Jednoduchý python script který vytváří HTML souboru z URL a názvu.
 
-#Jak na používání?
+## Jak na používání?
+#### Co potřebujete
+- Programovací jazyk Python (3.8+, ale 3.0+ by mělo taky fungovat)
+*Jak si stáhnout Python? [Tutoriál zde] (https://www.youtube.com/watch?v=sTbTtvMylLI)*
 
-Pro použití si potřebujete stáhnout programovací jazyk Python (https://python.org), a doporučuju nějaký IDE, nejlepšíí bude asi PyCharm od JetBrains, nebo Visual Studio Code od Microsoftu, v IDE pak klikněte na tlačítko **RUN** a terminal po vás bude chtít URL, prosím zadávejte jen URL který končí na .jpg jinak to nebude fungovat, po zadání URL zadejte název kytky, stromu atd.  pro další opakujte tento proces
+- Python IDE 
+*Stáhněte si ideálně [PyCharm](https://www.jetbrains.com/pycharm)*
+
+#### Jak na to?
+- Stáhněte (Clone) si tohle repo. nebo jen soubor main.py
+
+![Kde stáhnout?](https://github.com/Kendy205/poznavackamaker/blob/images/download.jpg?raw=true)
