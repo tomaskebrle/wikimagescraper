@@ -2,7 +2,7 @@
 Jednoduchý python script který vytváří HTML souboru z URL a názvu.
 
 # Varování
-Pokud zadáte něco špatně budete muset změnit kód kvůli způsobu na vytváření HTML souborů(Více najdete dole v sekci Zadali jste něco špatně?)
+Pokud zadáte špatně URL obrázku budete muset změnit kód kvůli způsobu na vytváření HTML souborů(Více najdete dole v sekci Zadali jste něco špatně?)
 
 Tento script vytváří HTML soubory pro který budete muset mít hosting(Teda pokud chcete poznávačku sdílet se spolužáky), 
 
@@ -30,8 +30,8 @@ Pokud nevíte jak na to klikněte [zde](https://www.youtube.com/watch?v=JLfd9LOd
 -Opakujte do té doby dokud nemáte všechny položky hotové
 -Klikněte na tlačítko stop, to v terminalu hodí error, ale to nevadí
 
-#Zadali jste něco špatně?
-Pokud jste zadali něco špatně tak:
+#Zadali jste špatně URL obrázku?
+Pokud jste zadali URL obrázku špatně tak:
 -Zjistěte jaký je poslední číslo HTML souboru který jste vytvořili
 -V python souboru najděte tohle:
 
@@ -39,3 +39,11 @@ Pokud jste zadali něco špatně tak:
  filename = 0
 ```
 a změňte to na číslo vašeho posledního souboru - 1, a všechno by mělo fungovat.
+
+#Zadali jste jméno špatně?
+Najděte soubor kde jste zadali jméno špatně
+v něm najdete tohle
+```html
+<h1>Jméno kytky, zvířete...</h1>
+```
+ a změňte ho
