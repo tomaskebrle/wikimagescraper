@@ -11,7 +11,7 @@ Ovšem je důležité zmínit že hosting se dá sehnat zadarmo (např. NetLify 
 V baru napravo by měla být část s názvem **Releases** zde klikněte na verzi 1.0, a stáhněte si soubor s názvem poznavackamaker.exe
 ten si poté dejte do nějaké složky, v té složce pak vytvořte novou a prázdnou složku s  názvem **images** (Tohle je důležitý a jinak nebude program fungovat)
 
-Poté už jen spusťte **main.exe**, tam zadejte url obrázku a název kytky a je to takhle pokračujte až dokonce.
+Poté už jen spusťte **poznavackamaker.exe**, tam zadejte url obrázku a název kytky a je to takhle pokračujte až dokonce.
 
 
 # Zadali jste jméno špatně?
