@@ -1,17 +1,23 @@
 # Python script na vytváření poznávačky
-Jednoduchý python script který vytváří HTML souboru z URL a názvu.
+
+Python script který vytváří pomocí [Wikipedi API](https://pypi.org/project/Wikipedia-API/), html soubor s obrázkem.
 
 # Varování
-Pokud zadáte špatně URL obrázku budete muset změnit kód kvůli způsobu na vytváření HTML souborů(Více najdete dole v sekci Zadali jste něco špatně?)
-
-Tento script vytváří HTML soubory pro který budete muset mít hosting(Teda pokud chcete poznávačku sdílet se spolužáky)
-Ovšem je důležité zmínit že hosting se dá sehnat zadarmo (např. NetLify nebo WebZdarma.cz)
+*Tento script vytváří HTML soubory pro který budete muset mít hosting(Teda pokud chcete poznávačku sdílet se spolužáky)
+Ovšem je důležité zmínit že hosting se dá sehnat zadarmo (např. NetLify nebo WebZdarma.cz)*
 
 ## Jak na používání?
-V baru napravo by měla být část s názvem **Releases** zde klikněte na verzi 1.0, a stáhněte si soubor s názvem poznavackamaker.exe
-ten si poté dejte do nějaké složky, v té složce pak vytvořte novou a prázdnou složku s  názvem **images** (Tohle je důležitý a jinak nebude program fungovat)
+### Windows
+1. V baru napravo by měla být část s názvem **Releases** zde klikněte na verzi 2.0, a stáhněte si soubor s názvem poznavackamaker.exe
+2. Vlože ho do prázdné složky
+3. V té složce pak vytvořte novou prázdnou složku s  názvem **images** (Tohle je důležitý a jinak nebude program fungovat)
+4. Spusťte program poznavackamaker.exe (Je možný že budete mít o varování o tom že je to vir, tak mi věřte žádnej tam není, jestli chcete koukněte se na source kód v tomhle repu)
 
-Poté už jen spusťte **poznavackamaker.exe**, tam zadejte url obrázku a název kytky a je to takhle pokračujte až dokonce.
+##
+**Používáte linux takže věřím že dokážete compilnout ze sourcu**
+```bash 
+git clone https://github.com/Kendy205/poznavackamake
+```
 
 
 # Zadali jste jméno špatně?
@@ -21,12 +27,5 @@ v něm najdete tohle
 <h1 class="center">Jméno kytky, zvířete...</h1>
 ```
  a změňte ho
- 
- # Zadali jste URL špatně
-Najděte soubor kde jste zadali jméno špatně
-v něm najdete tohle
-```html
-<div class="img"><img class="col s12 l8 center" src="images/2.jpg"></div>
-```
-Budete si muset ten obrazek stáhnout a přejmenovat na odpovidajici číslo
+
 
