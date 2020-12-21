@@ -8,9 +8,9 @@ from tkinter import *
 import wikipediaapi
 from bs4 import BeautifulSoup
 import lxml
+from pptx import Presentation
 
-
-#Wiki integrace
+#Important stuff
 wiki = wikipediaapi.Wikipedia("cs")
 
 file_name = 0
@@ -31,19 +31,14 @@ def click():
         wiki_url = wiki_page_en.fullurl
         html = urlopen(wiki_url)
         bs = BeautifulSoup(html, 'html.parser')
-        table = bs.find('a' ,attrs={"class":"image"})
-        table_f = open('table.html', 'w')
-        table_f.write(str(table))
-        with open('table.html', 'r') as table_f:
-            table_contents = table_f.read()
-            more_bs = BeautifulSoup(table_contents, 'lxml')
-            img = more_bs.find('img')
-            image = img['src']
-            wiki_image = 'https:' + image
-            #Download proces
-            dl_jpg(wiki_image, 'images/', file_name)
-            #vytvořit HTML file
-            html_create(file_name, click_nazev, tlacitko1, tlacitko2)
+        a_link = bs.find('a' ,attrs={"class":"image"})
+        img = a_link.find('img')
+        image = img['src']
+        wiki_image = 'https:' + image
+        #Download proces
+        dl_jpg(wiki_image, 'images/', file_name)
+        #vytvořit HTML file
+        html_create(file_name, click_nazev, tlacitko1, tlacitko2)
 
 #Download
 def dl_jpg(url, file_path, file_name):
