@@ -5,7 +5,6 @@ Python script který vytváří pomocí [Wikipedi API](https://pypi.org/project/
 ### Co připravuju
 1. Možnost vytváření pro .pptx souborů místo html
 2. CLI verzi pro linux
-3. Optimalizace
 
 # Varování
 *Tento script vytváří HTML soubory pro který budete muset mít hosting(Teda pokud chcete poznávačku sdílet se spolužáky)
@@ -13,7 +12,7 @@ Ovšem je důležité zmínit že hosting se dá sehnat zadarmo (např. NetLify 
 
 ## Jak na používání?
 ### Windows
-1. V baru napravo by měla být část s názvem **Releases** zde klikněte na verzi 2.0, a stáhněte si soubor s názvem poznavackamaker.exe
+1. V baru napravo by měla být část s názvem **Releases** zde klikněte na verzi 2.0 (Momentálně nedostupná), a stáhněte si soubor s názvem poznavackamaker.exe
 2. Vlože ho do prázdné složky
 3. V té složce pak vytvořte novou prázdnou složku s  názvem **images** (Tohle je důležitý a jinak nebude program fungovat)
 4. Spusťte program poznavackamaker.exe (Je možný že budete mít o varování o tom že je to vir, tak mi věřte žádnej tam není, jestli chcete koukněte se na source kód v tomhle repu)
